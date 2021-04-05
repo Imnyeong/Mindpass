@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/nicView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+    <Button
+        android:id="@+id/btnImage"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:drawableLeft="@drawable/whiteimage"
+        android:paddingRight="25dp"
+        android:drawableRight="@drawable/upload"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnCodi"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:drawableLeft="@drawable/whitestyle"
+        android:paddingRight="25dp"
+        android:drawableRight="@drawable/cloth" />
+
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:drawableLeft="@drawable/whiteclothlist"
+        android:paddingRight="25dp"
+        android:drawableRight="@drawable/clothlist"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnlgout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorBlank"
+        android:text="로그아웃"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/result"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="옷의 정보를 직접 입력해주세요."
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+    <TextView
+        android:id="@+id/bigview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_margin="10dp"
+        android:text="부위"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    <Spinner
+        android:id="@+id/spinbig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/bmdohyeon_ttf">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/colorview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_margin="10dp"
+        android:text="색상"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    <Spinner
+        android:id="@+id/spincolor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/bmdohyeon_ttf">
+    </Spinner>
+
+    <TextView
+        android:id="@+id/clothview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:layout_margin="10dp"
+        android:text="옷의 종류"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+    <Spinner
+        android:id="@+id/spincloth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:fontFamily="@font/bmdohyeon_ttf">
+    </Spinner>
+
+    <Button
+        android:id="@+id/etcsend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="정보 전송"
+        android:fontFamily="@font/bmdohyeon_ttf">
+
+    </Button>
+</LinearLayout>

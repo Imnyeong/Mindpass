@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/result"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:text="보기 중 어떤 옷에 가까운가요?"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+    <Button
+        android:id="@+id/btnRank1"
+        android:layout_width="320dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:text="1등"
+        android:onClick="button1"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnRank2"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:text="2등"
+        android:onClick="button2"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    <Button
+        android:id="@+id/btnRank3"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:text="3등"
+        android:onClick="button3"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/btnRank4"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:text="4등"
+        android:onClick="button4"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    <Button
+        android:id="@+id/btnRank5"
+        android:layout_width="150dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:text="5등"
+        android:onClick="button5"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:textColor="@color/colorPrimary"
+        android:background="@color/colorBlank"
+        android:text="맞는 답이 없습니다."
+        android:onClick="goetc"
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+
+</LinearLayout>

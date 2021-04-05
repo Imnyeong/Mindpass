@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">MIND PASS</string>
+
+    <string-array name="spinner_big">
+        <item>상의</item>
+        <item>하의</item>
+        <item>신발</item>
+        <item>가방</item>
+        <item>외투</item>
+    </string-array>
+    <string-array name="spinner_color">
+        <item>흰색</item>
+        <item>회색</item>
+        <item>검정색</item>
+        <item>분홍색</item>
+        <item>주황색</item>
+        <item>빨강색</item>
+        <item>노랑색</item>
+        <item>녹색</item>
+        <item>파랑색, 남색</item>
+        <item>보라색</item>
+    </string-array>
+    <string-array name="spinner_top">
+        <item>맨투맨</item>
+        <item>후드</item>
+        <item>셔츠</item>
+        <item>반팔</item>
+        <item>니트</item>
+        <item>목폴라</item>
+        <item>카라티</item>
+    </string-array>
+    <string-array name="spinner_pants">
+        <item>청바지</item>
+        <item>슬랙스</item>
+        <item>반바지</item>
+        <item>츄리닝</item>
+    </string-array>
+    <string-array name="spinner_shoes">
+        <item>로퍼</item>
+        <item>러닝화</item>
+        <item>워커</item>
+    </string-array>
+    <string-array name="spinner_bag">
+        <item>서류가방</item>
+        <item>백팩</item>
+    </string-array>
+    <string-array name="spinner_coat">
+        <item>바람막이</item>
+        <item>청자켓</item>
+        <item>코트</item>
+        <item>자켓</item>
+        <item>롱패딩</item>
+        <item>무스탕</item>
+        <item>숏패딩</item>
+        <item>트랙탑</item>
+        <item>가디건</item>
+    </string-array>
+
+</resources>

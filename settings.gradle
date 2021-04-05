@@ -1,0 +1,2 @@
+include ':app', ':activation', ':additionnal', ':json-simple-1.1.1', ':mail'
+rootProject.name='ImageUpload'

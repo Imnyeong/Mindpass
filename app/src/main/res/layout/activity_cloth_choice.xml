@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:src="@drawable/logoclothlist"
+        />
+
+    <TextView
+        android:id="@+id/nickView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:fontFamily="@font/bmdohyeon_ttf"/>
+
+    <Button
+        android:id="@+id/btnTop"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:paddingRight="25dp"
+        android:text="상의"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmdohyeon_ttf"
+        />
+
+    <Button
+        android:id="@+id/btnPants"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:paddingRight="25dp"
+        android:text="하의"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmdohyeon_ttf"
+        />
+
+    <Button
+        android:id="@+id/btnShoes"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:paddingRight="25dp"
+        android:text="신발"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmdohyeon_ttf"
+        />
+
+    <Button
+        android:id="@+id/btnBag"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:paddingRight="25dp"
+        android:text="가방"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmdohyeon_ttf"
+        />
+
+    <Button
+        android:id="@+id/btnCoat"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="15dip"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/coloWhite"
+        android:paddingRight="25dp"
+        android:text="외투"
+        android:textSize="30sp"
+        android:fontFamily="@font/bmdohyeon_ttf"
+        />
+
+</LinearLayout>
